@@ -1,4 +1,4 @@
-const generateOTP = (length?:number) => {
+const OtpGenerator = (length?:number) => {
     // Declare a digits variable
 
     // which stores all digits
@@ -15,4 +15,4 @@ const generateOTP = (length?:number) => {
     return OTP;
 }
 
-module.exports = generateOTP
+module.exports = OtpGenerator
